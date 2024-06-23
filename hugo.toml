@@ -1,0 +1,38 @@
+baseURL = 'https://alexandrowitz.de/'
+languageCode = 'de-de'
+title = 'alexander alexandrowitz'
+theme = 'archie'
+
+copyright = "© alexquadrat"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="auto"
+	useCDN=false
+	subtitle = "my favourite projects."
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/alexalex89"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/alexander-alexandrowitz-791683186/"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Imprint/Privacy"
+url = "/imprint-privacy"
+weight = 3
