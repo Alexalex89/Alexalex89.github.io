@@ -2,6 +2,7 @@ baseURL = 'https://alexandrowitz.de/'
 languageCode = 'de-de'
 title = 'alexander alexandrowitz'
 theme = 'archie'
+themesDir = 'themes'
 
 copyright = "© alexquadrat"
 pygmentsstyle = "monokai"
