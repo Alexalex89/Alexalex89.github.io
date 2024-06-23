@@ -2,7 +2,7 @@
 title = "imprint/privacy"
 description = ""
 date = "2024-06-23"
-aliases = ["imprint", "privacy"]
+aliases = ["imprint","privacy"]
 author = "Alexander Alexandrowitz"
 +++
 
