@@ -9,7 +9,7 @@ pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 [params]
-	mode="auto"
+	mode="toggle"
 	useCDN=false
 	subtitle = "my favourite projects."
 
