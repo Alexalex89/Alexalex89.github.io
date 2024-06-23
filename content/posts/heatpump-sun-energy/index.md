@@ -8,6 +8,8 @@ description: Create a Home Assistant automation to load your hot water tank when
 
 ---
 
+{{< figure src="photovoltaic-green.png" title="" >}}
+
 ## Prerequisites
 
 - up-to-date [Home Assistant](https://www.home-assistant.io/) installation
