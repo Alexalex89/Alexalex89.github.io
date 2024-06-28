@@ -2,7 +2,7 @@
 
 title: "A Smart Home Challenge: Resolving a Viessmann Heat Pump Problem"
 
-date: "2024-06-29"
+date: "2024-06-28"
 
 description: How I Found and Fixed an Issue with My Viessmann Heat Pump
 
@@ -23,6 +23,20 @@ After diagnosing the problem, I contacted Viessmann’s customer service, who re
 Despite the replaced diverter valve, there was still a minor circulation issue. This residual circulation caused water from the heating operation to flow through the heat exchanger in the hot water tank, cooling it down as it lost heat to the underfloor heating.
 
 To finally address this, I installed an actuator on the ball valve of the return line behind the hot water tank. Using a Shelly device and a Home Assistant automation, the ball valve now automatically closes when hot water is not being produced. This effectively prevents unwanted circulation. Since the original motor from Heimeier was too expensive, I purchased a cheaper motor and 3D-printed an adapter.
+
+As a comparison, these three charts, all covering a range of 24 hours:
+
+- before changing the diverter valve:
+
+{{< figure src="before-diverter.JPEG" title="" >}}
+
+- after changing the diverter valve:
+
+{{< figure src="after-diverter.JPEG" title="" >}}
+
+- after installing an actuator on the ball valve:
+
+{{< figure src="ball-valve-closed.png" title="" >}}
 
 ## Result
 Thanks to this measure, the heat pump now loses only about 0.2 degrees per hour and functions flawlessly. A significant success after a long search!
